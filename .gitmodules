@@ -1,0 +1,6 @@
+[submodule "hqp"]
+	path = hqp
+	url = git://github.com/rsynek/hudson-queue-planning.git
+[submodule "external-scheduler-plugin"]
+	path = external-scheduler-plugin
+	url = git://github.com/olivergondza/external-scheduler-plugin.git
