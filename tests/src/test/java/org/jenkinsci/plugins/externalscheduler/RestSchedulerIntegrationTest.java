@@ -41,13 +41,6 @@ import java.util.Properties;
 import java.util.Set;
 import java.util.SortedSet;
 
-import org.jenkinsci.plugins.externalscheduler.ItemMock;
-import org.jenkinsci.plugins.externalscheduler.NodeAssignments;
-import org.jenkinsci.plugins.externalscheduler.NodeMockFactory;
-import org.jenkinsci.plugins.externalscheduler.RestScheduler;
-import org.jenkinsci.plugins.externalscheduler.SchedulerException;
-import org.jenkinsci.plugins.externalscheduler.Score;
-import org.jenkinsci.plugins.externalscheduler.StateProviderMock;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -173,7 +166,7 @@ public class RestSchedulerIntegrationTest {
     /**
      * Test updating the queue several times and picking up the solution
      * @throws InterruptedException
-     * @throws SchedulerException 
+     * @throws SchedulerException
      */
     @Test
     public void getReassignedSolution() throws InterruptedException, SchedulerException {
