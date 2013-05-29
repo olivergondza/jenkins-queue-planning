@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package org.jenkinsci.plugins.externalscheduler;
+package org.jenkinsci.plugins.restservicescheduler;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
@@ -41,6 +41,13 @@ import java.util.Properties;
 import java.util.Set;
 import java.util.SortedSet;
 
+import org.jenkinsci.plugins.externalscheduler.ItemMock;
+import org.jenkinsci.plugins.externalscheduler.NodeAssignments;
+import org.jenkinsci.plugins.externalscheduler.NodeMockFactory;
+import org.jenkinsci.plugins.externalscheduler.RestScheduler;
+import org.jenkinsci.plugins.externalscheduler.SchedulerException;
+import org.jenkinsci.plugins.externalscheduler.Score;
+import org.jenkinsci.plugins.externalscheduler.StateProviderMock;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
