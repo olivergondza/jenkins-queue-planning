@@ -9,6 +9,7 @@
   <modules>
     <module>hqp</module>
     <module>external-scheduler-plugin</module>
+    <module>rest-service-scheduler-plugin</module>
     <module>tests</module>
   </modules>
 </project>
