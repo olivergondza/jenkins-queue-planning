@@ -3,4 +3,7 @@
 	url = git://github.com/rsynek/hudson-queue-planning.git
 [submodule "external-scheduler-plugin"]
 	path = external-scheduler-plugin
-	url = git://github.com/olivergondza/external-scheduler-plugin.git
+	url = git://github.com/jenkinsci/external-scheduler-plugin.git
+[submodule "rest-service-scheduler-plugin"]
+	path = rest-service-scheduler-plugin
+	url = git://github.com/jenkinsci/rest-service-scheduler-plugin.git
