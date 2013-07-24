@@ -47,6 +47,7 @@ import org.jenkinsci.plugins.externalscheduler.NodeMockFactory;
 import org.jenkinsci.plugins.externalscheduler.StateProviderMock;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.powermock.core.classloader.annotations.PrepareForTest;
@@ -112,6 +113,7 @@ public class RestSchedulerIntegrationTest {
     }
 
     @Test
+    @Ignore
     public void getSolutionForSimilarItems() throws InterruptedException, SchedulerException {
 
         final List<Queue.BuildableItem> items = ItemMock.list();
